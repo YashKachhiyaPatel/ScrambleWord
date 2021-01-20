@@ -34,7 +34,7 @@ score.style.display = "block";
 		// console.log(ranwords);
 		msg.innerHTML = `Guess This Word: ${ranwords}`;
 	}else{
-		let tword = answer.value;
+		let tword = answer.value.toLowerCase();
 		if (newwords == tword) {
 			play = false;
 			msg.innerHTML = `Great it is ${newwords}`;
