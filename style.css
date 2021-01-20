@@ -28,8 +28,8 @@ h1:hover{
 }
 .container{
 	margin-top: 30px;
-	height: 60vh;
-	width: 700px;
+	height: 65vh;
+	width: 750px;
 	box-shadow: 0px 0px 5px black;
 	display: flex;
 	justify-content: center;
@@ -39,18 +39,19 @@ h1:hover{
 
 }
 .main{
-	font-size: 2.5rem;
+	font-size: 3.5rem;
         color: white;
 }
 .score{
 	margin-bottom: 25px;
 	display: none;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: 700;
+	 color: white;
 }
 .answer{
 	width: 300px;
-	height: 60px;
+	height: 70px;
 	border: 2px solid lime;
 	border-radius: 25px;
 	outline: none;
@@ -62,7 +63,7 @@ h1:hover{
 }
 .btn{
 	margin-top: 20px;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	width: 270px;
 	border-radius: 30px;
 	border: none;
