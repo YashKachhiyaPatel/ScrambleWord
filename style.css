@@ -14,8 +14,8 @@ body{
 }
 h1{
 	height: 15vh;
-	background-color: #c0eae6;
-        color: white;
+	background: linear-gradient(#e66465, #9198e5);
+        color: black;
 	width: 100%;
 	display: flex;
 	justify-content: center;
